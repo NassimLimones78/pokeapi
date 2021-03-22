@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.Movimientossexi{
+    display: block;
+  }
+  .tipodepokemon{
+      display: block;
+  }
+
+header{
+    height: 10vh;
+    background: linear-gradient(90deg,#ff0058,#fff);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+main{
+    height: 100vh;
+    background-image: url(../img/EP813_Campo_de_batalla_del_Gimnasio_Luminalia.png);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h2{
+   font-size: 2em;
+   color: black;
+   margin-bottom: 10px;
+}
+p span{
+    color: black;
+    font-weight: bold;
+}
+h3{
+    color: black;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+.container .box{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+.container .box:hover{
+    transform: translateY(-20px);
+}
+.container .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+}
+.container .box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    filter: blur(30px);
+}
+.container .box span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.container .box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+.container .box .contenido{
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.container .box .contenido h2{
+   font-size: 2em;
+   color: #fff;
+   margin-bottom: 10px;
+}
+.container .box .contenido p{
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+ }
+ .main .cuadro{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+ }
+ .main .cuadro .box{
+ position: relative;
+ width: 320px;
+ height: 400px;
+ color: #fff;
+ background: #111;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 20px 30px;
+ transition: 0.5s;
+ }
+ .container .box:hover{
+    transform: translateY(-20px);
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+}
